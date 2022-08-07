@@ -10,6 +10,11 @@
 * ensamble
 * stacking
 
+### TODO:
+* pretrainedの調査
+  * hugging face(https://huggingface.co/models)
+  * [transformers Docs » Pretrained modelsView Pretrained models](https://huggingface.co/transformers/v3.3.1/pretrained_models.html)
+
 
 ### 参考
 [2020:Kaggle のデータ分析コンペ Tweet Sentiment Extraction で『5位 / 2,227チーム』を獲得しました :)](https://lab.mo-t.com/blog/kaggle-tweet-sentiment-extraction-2020)
