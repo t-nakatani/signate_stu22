@@ -30,4 +30,8 @@
 >* 事前学習モデルを使うため、前処理でテキストのクレンジング・クリーニングなどの効果があまり期待できない。
 >* データ数が少ない場合は学習が不安定になりがちで、本質的な改善を確認しづらい。
 
+[HuggingFace Transformers 4.6 : 上級ガイド : 事前訓練モデル](https://torch.classcat.com/2021/05/16/huggingface-transformers-4-6-pretrained-models/)  
+HuggingFace Transformers公式ドキュメントの一部を説明付きで日本語訳
+
+https://huggingface.co/transformers/v3.0.2/model_doc/bert.html
 
