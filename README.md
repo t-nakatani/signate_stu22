@@ -34,4 +34,3 @@
 HuggingFace Transformers公式ドキュメントの一部を説明付きで日本語訳
 
 https://huggingface.co/transformers/v3.0.2/model_doc/bert.html
-
