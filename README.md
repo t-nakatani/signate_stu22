@@ -34,3 +34,22 @@
 HuggingFace Transformers公式ドキュメントの一部を説明付きで日本語訳
 
 https://huggingface.co/transformers/v3.0.2/model_doc/bert.html
+
+### 検討事項
+
+* cv
+* stemming or lemmatisation
+* Focal loss([Use Focal Loss To Train Model Using Imbalanced Dataset](https://leimao.github.io/blog/Focal-Loss-Explained/))
+* preprocessing
+* postprocessing
+* ensamble
+* stacking
+
+### TODO:
+* pretrainedの調査
+  * hugging face(https://huggingface.co/models)
+  * [transformers Docs » Pretrained modelsView Pretrained models](https://huggingface.co/transformers/v3.3.1/pretrained_models.html)
+
+### 反省
+transformersに慣れるのに時間がかかった．公式ドキュメントをもっと早い段階で読むべきだった．
+評価指標をaccuracyだと勘違いしていた．不均衡データなので気づけた．
