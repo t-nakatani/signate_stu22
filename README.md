@@ -10,11 +10,6 @@
 * ensamble
 * stacking
 
-### TODO:
-* pretrainedの調査
-  * hugging face(https://huggingface.co/models)
-  * [transformers Docs » Pretrained modelsView Pretrained models](https://huggingface.co/transformers/v3.3.1/pretrained_models.html)
-
 
 ### 参考
 [2020:Kaggle のデータ分析コンペ Tweet Sentiment Extraction で『5位 / 2,227チーム』を獲得しました :)](https://lab.mo-t.com/blog/kaggle-tweet-sentiment-extraction-2020)
@@ -34,6 +29,26 @@
 >* 画像コンペとは違い入力が離散値なので、data augmentation での工夫が難しい。
 >* 事前学習モデルを使うため、前処理でテキストのクレンジング・クリーニングなどの効果があまり期待できない。
 >* データ数が少ない場合は学習が不安定になりがちで、本質的な改善を確認しづらい。
+
+[HuggingFace Transformers 4.6 : 上級ガイド : 事前訓練モデル](https://torch.classcat.com/2021/05/16/huggingface-transformers-4-6-pretrained-models/)  
+HuggingFace Transformers公式ドキュメントの一部を説明付きで日本語訳
+
+https://huggingface.co/transformers/v3.0.2/model_doc/bert.html
+
+### 検討事項
+
+* cv
+* stemming or lemmatisation
+* Focal loss([Use Focal Loss To Train Model Using Imbalanced Dataset](https://leimao.github.io/blog/Focal-Loss-Explained/))
+* preprocessing
+* postprocessing
+* ensamble
+* stacking
+
+### TODO:
+* pretrainedの調査
+  * hugging face(https://huggingface.co/models)
+  * [transformers Docs » Pretrained modelsView Pretrained models](https://huggingface.co/transformers/v3.3.1/pretrained_models.html)
 
 ### 反省
 transformersに慣れるのに時間がかかった．公式ドキュメントをもっと早い段階で読むべきだった．
